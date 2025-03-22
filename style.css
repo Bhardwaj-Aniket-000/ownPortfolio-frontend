@@ -1,0 +1,37 @@
+#wrapper-canvas canvas {
+  max-width: 100%;
+  background-color: rgb(253, 191, 191);
+}
+/* .animate {
+  animation: hideAbout 1s linear;
+}
+@keyframes hideAbout {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(700px);
+  }
+} */
+/* .upperImg { */
+  /* border-bottom-right-radius: 2px; */
+  /* border-bottom-left-radius: 2px; */
+  /* width: 300px; */
+/* } */
+.calcImg{
+  height: 196px !important;
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .upperImg {
+    height: 174px;
+    width: 270px;
+    position: absolute;
+    top: 4px;
+  }
+  .calcImg {
+    height: 177px !important;
+    width: 274px;
+    position: absolute;
+    top: 3px !important;
+  }
+}
