@@ -1,1 +1,2 @@
-# ownPortfolio-frontend
+# my-portfolio
+This is my own Portfolio .
