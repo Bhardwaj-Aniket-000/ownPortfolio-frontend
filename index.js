@@ -8,7 +8,7 @@ if (window.innerWidth >= 1024) {
   console.log(script);
   document.body.append(script);
 } else {
-  // applyGsapAnimation();
+  applyGsapAnimation();
 }
 aboutBtn.addEventListener("click", (e) => {
   showAboutPage.style.display = "block";
