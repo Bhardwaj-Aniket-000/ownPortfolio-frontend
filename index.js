@@ -65,7 +65,8 @@ btn.addEventListener("click", (e) => {
     return;
   }
   // fetch("https://newspulse-server.vercel.app/api/v3/portfoliofeeds", {
-  fetch("https://own-portfolio-backend.vercel.app/api/getEmail", {
+  // fetch("https://own-portfolio-backend.vercel.app/api/getEmail", {
+  fetch("http://localhost:7000/api/getEmail", {
     method: "post",
     body: JSON.stringify(data),
     headers: {
