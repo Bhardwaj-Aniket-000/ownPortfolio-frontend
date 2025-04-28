@@ -918,6 +918,10 @@ video {
   align-self: center;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -1173,6 +1177,10 @@ video {
   line-height: 2.25rem;
 }
 
+.text-\[13px\] {
+  font-size: 13px;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1203,14 +1211,6 @@ video {
 
 .font-medium {
   font-weight: 500;
-}
-
-.font-normal {
-  font-weight: 400;
-}
-
-.capitalize {
-  text-transform: capitalize;
 }
 
 .italic {
@@ -1316,6 +1316,11 @@ video {
 
 .ease-jump {
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, and Opera */
 }
 
 .after\:absolute::after {

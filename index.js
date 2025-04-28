@@ -205,21 +205,19 @@ function applyGsapAnimation() {
     },
   });
   gsap.from(".news_parent", {
-    x: 100,
+    // x: 100,
     y: -100,
-    scale: 0.5,
+    scale: 0.2,
     opacity: 0,
     duration: 1,
     scrollTrigger: {
       trigger: ".news_parent",
       scroller: "body",
-      // start: "top center",
-      // end: "bottom center",
       scrub: 1,
     },
   });
   gsap.from(".chat_parent", {
-    x: -100,
+    // x: -100,
     y: -100,
     scale: 0.5,
     opacity: 0,
@@ -233,7 +231,7 @@ function applyGsapAnimation() {
     },
   });
   gsap.from(".harigurus_parent", {
-    x: 100,
+    // x: 100,
     y: -100,
     opacity: 0,
     scale: 0.5,
@@ -247,7 +245,7 @@ function applyGsapAnimation() {
     },
   });
   gsap.from(".yoga_parent", {
-    x: -100,
+    // x: -100,
     y: -100,
     opacity: 0,
     scale: 0.5,
@@ -261,7 +259,7 @@ function applyGsapAnimation() {
     },
   });
   gsap.from(".currency_parent", {
-    x: 100,
+    // x: 100,
     y: -100,
     opacity: 0,
     scale: 0.5,
@@ -275,7 +273,7 @@ function applyGsapAnimation() {
     },
   });
   gsap.from(".weather_parent", {
-    x: -100,
+    // x: -100,
     y: -100,
     opacity: 0,
     scale: 0.5,
@@ -289,7 +287,7 @@ function applyGsapAnimation() {
     },
   });
   gsap.from(".bmi_parent", {
-    x: 100,
+    // x: 100,
     y: -100,
     opacity: 0,
     scale: 0.5,
@@ -303,7 +301,7 @@ function applyGsapAnimation() {
     },
   });
   gsap.from(".calc_parent", {
-    x: -100,
+    // x: -100,
     y: -100,
     opacity: 0,
     scale: 0.5,
@@ -317,7 +315,7 @@ function applyGsapAnimation() {
     },
   });
   gsap.from(".joke_parent", {
-    x: 100,
+    // x: 100,
     y: -100,
     opacity: 0,
     scale: 0.5,
@@ -331,7 +329,7 @@ function applyGsapAnimation() {
     },
   });
   gsap.from(".number_parent", {
-    x: -100,
+    // x: -100,
     y: -100,
     opacity: 0,
     scale: 0.5,
@@ -345,7 +343,7 @@ function applyGsapAnimation() {
     },
   });
   gsap.from(".tictactoe_parent", {
-    x: 100,
+    // x: 100,
     y: -100,
     opacity: 0,
     scale: 0.5,
@@ -359,7 +357,7 @@ function applyGsapAnimation() {
     },
   });
   gsap.from(".clock_parent", {
-    x: -100,
+    // x: -100,
     y: -100,
     opacity: 0,
     scale: 0.5,

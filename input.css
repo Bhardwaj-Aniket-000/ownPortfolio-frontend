@@ -11,3 +11,7 @@
     src: url(./font/Philosopher-Regular.ttf);
   }
 }
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
