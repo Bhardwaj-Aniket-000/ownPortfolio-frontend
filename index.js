@@ -207,7 +207,7 @@ function applyGsapAnimation() {
   gsap.from(".news_parent", {
     // x: 100,
     y: -100,
-    scale: 0.2,
+    scale: 0.5,
     opacity: 0,
     duration: 1,
     scrollTrigger: {
